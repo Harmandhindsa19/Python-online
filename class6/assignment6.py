@@ -67,6 +67,8 @@ for x in range(4):
      dict[keys]=values
 
 print(dict)
+for k in dict.keys():
+    print(k,dict[k])
 
 #Take inputs from user to make a list.
 #Again take one input from user and search it in the list and delete that element,if found.
