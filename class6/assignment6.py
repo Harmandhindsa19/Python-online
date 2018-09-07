@@ -74,11 +74,12 @@ print(dict)
 
 list=[]
 for i in range(6):
-    list.append(int(input("enter the element:")))
+    list.append(str     (input("enter the element:")))
 print(list)
-for j in range(1):
-    list.append(int(input("enter the element:")))
-    del list[j]
+name=str(input("enter the name:"))
+for j in list:
+    if j==name:
+        list.remove(j)
 print(list)
 
 
